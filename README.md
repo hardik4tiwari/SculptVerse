@@ -22,7 +22,6 @@ cd SculptVerse
 ### Inference
 - Run the inference script to get 3D assets.
 - You may specify which form of output to generate by setting the flags `EXPORT_VIDEO=true` and `EXPORT_MESH=true`.
-- Please set default `INFER_CONFIG` according to the model you want to use. E.g., `infer-b.yaml` for base models and `infer-s.yaml` for small models.
 - An example usage is as follows:
 
   ```
