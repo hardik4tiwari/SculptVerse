@@ -18,6 +18,13 @@ cd SculptVerse
 ### Prepare Images
 - We put some sample inputs under `assets/sample_input`, and you can quickly try them.
 - Prepare RGBA images or RGB images with white background (with some background removal tools, e.g., [Rembg](https://github.com/danielgatis/rembg), [Clipdrop](https://clipdrop.co)).
+- An example usage of preprocessing is as follows:
+  ```
+  #Example Usage
+  IMAGE_INPUT="./assets/sample_input/box.jpg"
+  IMG_PTH="INPUT/box.jpg"
+  python preprocess_images.py $IMG_PTH $IMAGE_INPUT --rmbg --recenter
+  ```
 
 ### Inference
 - Run the inference script to get 3D assets.
