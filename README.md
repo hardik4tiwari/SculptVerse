@@ -1,6 +1,6 @@
 # SculptVerse
 
-##Methodology
+## Methodology
 
 The Open LRM (Lightweight Reconstruction Model) for 3D reconstruction is a methodology designed to efficiently generate 3D models from 2D images, typically from multi-view datasets or single-image inputs. While various implementations of LRM approaches may differ slightly, they usually follow these key steps:
 
