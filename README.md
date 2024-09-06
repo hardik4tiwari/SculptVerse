@@ -1,4 +1,5 @@
-#SculptVerse
+# SculptVerse
+
 ## Setup
 
 ### Installation
@@ -41,3 +42,13 @@ cd SculptVerse
 
   python -m openlrm.launch infer.lrm --infer $INFER_CONFIG model_name=$MODEL_NAME image_input=$IMAGE_INPUT export_video=$EXPORT_VIDEO export_mesh=$EXPORT_MESH
   ```
+
+  ### OBJ File
+  - Run the conversion script to get obj model
+  - An example usage is as follows:
+
+    ```
+    INPUT_FILE="path/to/input_file.ply"
+    OUTPUT_FILE="path/to/output_file.obj"
+    python convert_ply_to_obj.py $INPUT_FILE $OUTPUT_FILE
+    ```
